@@ -53,11 +53,18 @@ function(add_fmt_test name)
   add_test(NAME ${name} COMMAND ${name})
 endfunction()
 
-add_fmt_test(hello)
-add_fmt_test(pointers)
-add_fmt_test(statement)
+# add_fmt_test(hello)
+# add_fmt_test(pointers)
+# add_fmt_test(statement)
 add_fmt_test(working)
-add_fmt_test(variables)
+# add_fmt_test(variables)
+
+add_fmt_test(for)
+add_fmt_test(func)
+add_fmt_test(range-for)
+add_fmt_test(switch)
+add_fmt_test(while)
+
 
 if (FMT_CAN_MODULE)
   # The tests need {fmt} to be compiled as traditional library
