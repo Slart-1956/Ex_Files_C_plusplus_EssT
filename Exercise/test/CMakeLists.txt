@@ -59,11 +59,22 @@ endfunction()
 add_fmt_test(working)
 # add_fmt_test(variables)
 
-add_fmt_test(for)
-add_fmt_test(func)
-add_fmt_test(range-for)
-add_fmt_test(switch)
-add_fmt_test(while)
+# Chap03
+#add_fmt_test(for)
+#add_fmt_test(func)
+#add_fmt_test(range-for)
+#add_fmt_test(switch)
+#add_fmt_test(while)
+
+# Chap04
+add_fmt_test(04-solution)
+add_fmt_test(array)
+add_fmt_test(auto-type)
+add_fmt_test(auto-type2)
+add_fmt_test(float-types)
+add_fmt_test(qualifiers)
+add_fmt_test(struct)
+add_fmt_test(typedef)
 
 
 if (FMT_CAN_MODULE)
