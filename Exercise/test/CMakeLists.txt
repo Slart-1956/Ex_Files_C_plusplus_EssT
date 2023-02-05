@@ -81,7 +81,6 @@ add_fmt_test(05-solution)
 add_fmt_test(operators)
 add_fmt_test(pointer-incr)
 
-
 if (FMT_CAN_MODULE)
   # The tests need {fmt} to be compiled as traditional library
   # because of visibility of implementation details.
