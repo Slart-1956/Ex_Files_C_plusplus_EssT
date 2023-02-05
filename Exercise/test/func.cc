@@ -1,17 +1,16 @@
-// func.cpp by Bill Weinman [bw.org]
-// updated 2022-05-23
-#include <fmt/format.h>
+// func.cpp by Bill Weinman <http://bw.org/>
+// updated 2020-06-24
+#include <format>
 #include <iostream>
 
-using fmt::format;
+using std::format;
 using std::cout;
 
 void func() {
-     cout << "this is func()\n";
+    cout << "this is func()\n";
 }
 
-int main()
-{
+int main() {
     cout << "this is main()\n";
     func();
 }

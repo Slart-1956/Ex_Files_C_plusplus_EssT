@@ -77,9 +77,14 @@ add_fmt_test(working)
 #add_fmt_test(typedef)
 
 # Chap05
-add_fmt_test(05-solution)
-add_fmt_test(operators)
-add_fmt_test(pointer-incr)
+#add_fmt_test(05-solution)
+#add_fmt_test(operators)
+#add_fmt_test(pointer-incr)
+
+# Chap06
+add_fmt_test(06-solution)
+add_fmt_test(func)
+add_fmt_test(recursive-factorial)
 
 
 if (FMT_CAN_MODULE)
