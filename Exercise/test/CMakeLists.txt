@@ -67,14 +67,19 @@ add_fmt_test(working)
 #add_fmt_test(while)
 
 # Chap04
-add_fmt_test(04-solution)
-add_fmt_test(array)
-add_fmt_test(auto-type)
-add_fmt_test(auto-type2)
-add_fmt_test(float-types)
-add_fmt_test(qualifiers)
-add_fmt_test(struct)
-add_fmt_test(typedef)
+#add_fmt_test(04-solution)
+#add_fmt_test(array)
+#add_fmt_test(auto-type)
+#add_fmt_test(auto-type2)
+#add_fmt_test(float-types)
+#add_fmt_test(qualifiers)
+#add_fmt_test(struct)
+#add_fmt_test(typedef)
+
+# Chap05
+add_fmt_test(05-solution)
+add_fmt_test(operators)
+add_fmt_test(pointer-incr)
 
 
 if (FMT_CAN_MODULE)
